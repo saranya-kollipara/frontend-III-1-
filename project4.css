@@ -1,0 +1,10 @@
+.navbar{
+    background-color: aliceblue;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2px;
+    gap: 300px;
+  }
