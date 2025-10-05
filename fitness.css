@@ -1,0 +1,85 @@
+body {
+margin:0; 
+font-family:Arial, sans-serif; 
+background:#f9f9f9; 
+color:#333;
+}
+header {
+background:#2e7d32; 
+color:white; 
+padding:20px; 
+text-align:center;
+}
+header h1 {
+margin:0;
+}
+nav ul {
+list-style:none; 
+display:flex; 
+justify-content:center; 
+gap:20px; 
+margin:10px 0 0; 
+padding:0;
+}
+nav a {
+color:white; 
+text-decoration:none; 
+font-weight:bold;
+}
+nav a:hover {
+text-decoration:underline;
+}
+.home {
+background:url('https://th.bing.com/th/id/OIP.2Jz7ZE2lzaHoDIRnVONbfgHaE7?w=313&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3') no-repeat center/cover; 
+color: white; 
+text-align:center; 
+padding:80px 20px;
+}
+.home h2 {
+font-size:2.5rem; 
+margin-bottom:10px;
+}
+.home p {
+font-size:1.2rem;
+}
+section {
+padding:40px; 
+text-align:center;
+}
+section h2 {
+color:white; 
+margin-bottom:15px;
+}
+.programs {
+display:flex; 
+justify-content:center; 
+gap:20px; 
+flex-wrap:wrap;
+}
+.program {
+background:white; 
+padding:20px; 
+width:250px; 
+border-radius:8px; 
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+li{
+    list-style-type: none;
+}
+.program h3 {
+color:#2e7d32; 
+margin:10px 0;
+}
+section p{
+    text-align: left;
+}
+section ul{
+    text-align: left;
+}
+footer {
+background:#333; 
+color:white; 
+text-align:center; 
+padding:20px; 
+margin-top:20px;
+}
