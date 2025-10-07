@@ -1,0 +1,30 @@
+body {
+    margin:0; 
+    font-family:sans-serif;
+    }
+    header {
+    background:url('https://picsum.photos/id/1015/1200/400') no-repeat center/cover; 
+    color:white; 
+    text-align:center; 
+    padding:100px 20px;
+    }
+    section {
+    padding:40px; 
+    text-align:center;
+    }
+    .places {
+    display:flex; 
+    justify-content:center; 
+    gap:20px;
+    }
+    .place {
+    background:#eee; 
+    padding:20px; 
+    border-radius:5px;
+    }
+    footer {
+    background:#222; 
+    color:white; 
+    text-align:center; 
+    padding:20px;
+    }
